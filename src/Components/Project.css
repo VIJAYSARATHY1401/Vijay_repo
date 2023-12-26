@@ -1,0 +1,53 @@
+.dash{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    height: 100vh;
+}
+.leftcontent{
+    border: 1px solid black;
+    background-color: rgba(120, 136, 255, 0.938);
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    
+}
+.lnk1 Button{
+    margin-top: 45px;
+    color: white;
+    text-decoration: solid;
+}
+.logout{
+    margin-top: 100px;
+}
+.box{
+display: flex;
+flex-direction: row;
+justify-content:space-evenly;
+align-items:center;
+margin-top: 250px;
+}
+.text{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 123px;
+}
+.box1{
+    height: 120px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgba(132, 212, 255, 0.693);
+}
+.box2{
+    height: 120px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgba(152, 255, 152, 0.515);
+}
+.box3{
+    height: 120px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgba(255, 166, 255, 0.414);
+}
+
