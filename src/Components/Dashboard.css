@@ -35,6 +35,17 @@
     height: 55px;
 }
 
+.iimg{
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+
 
 /* .box{
 display: flex;

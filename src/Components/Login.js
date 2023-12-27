@@ -10,6 +10,7 @@ import { useState } from 'react';
 import { Password } from '@mui/icons-material';
 import { FaUser } from "react-icons/fa";
 import { RiLockPasswordFill } from "react-icons/ri";
+import Dashboard from './Dashboard';
 
 
 function Login() {
@@ -34,7 +35,7 @@ function Login() {
                     <RiLockPasswordFill className='icons2'></RiLockPasswordFill>
                 </div>
                 <div className='btn'>
-                    <Button variant='contained' style={{ width: '222px' }} >LOGIN</Button>
+                    <Button variant='contained' style={{ width: '222px' }} > <Link to='/Dash' style={{color:'white'}}>LOGIN</Link></Button>
                 </div>
 
                 {/* <BrowserRouter> */}

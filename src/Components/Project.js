@@ -11,7 +11,7 @@ function Dashboard() {
             <div className='leftcontent'>
                 <Link className='lnk1' to='/Dash'><Button variant='text' style={{ width: '190px' }}>DASHBOARD</Button></Link>
                 <Link className='lnk1'><Button variant='text' style={{ width: '190px' }}>PROJECT</Button></Link>
-                <Link className='lnk1'><Button variant='text' style={{ width: '190px' }}>MEMBER</Button></Link>
+                <Link className='lnk1' to='/members'><Button variant='text' style={{ width: '190px' }}>MEMBER</Button></Link>
                 <Link className='lnk1'><Button variant='text' style={{ width: '190px' }}>CALENDAR</Button></Link>
                 <Link className='lnk1'><Button variant='text' style={{ width: '190px' }}>SETTINGS</Button></Link>
 
