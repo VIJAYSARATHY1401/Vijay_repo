@@ -27,8 +27,27 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 26, 255, 0.249);
+    background-color: rgba(130, 174, 255, 0.351);
 }
+.right img{
+    width: 450px;
+}
+
+.input01 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icons01{
+    position:absolute;
+    margin-left: 170px;
+    opacity: 50%;
+}
+
+
 
 @media only screen and (max-width:400px)  {
     .Sign{

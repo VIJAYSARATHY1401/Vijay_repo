@@ -1,11 +1,13 @@
 import './Sign.css';
 import logo from './Images/us global.png';
-import rightimg from './Images/Login-rafiki.png';
+import rightimg from './Images/Mobile login-pana.svg';
 import Typography from '@mui/material/Typography';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import { FaUser } from "react-icons/fa";
 import { RiLockPasswordFill } from "react-icons/ri";
+import { MdPhoneIphone } from "react-icons/md";
+import { MdEmail } from "react-icons/md";
 
 function Sign() {
     return (
@@ -23,18 +25,19 @@ function Sign() {
                     </div>
                     <div className='input01'>
                         <TextField variant='outlined' placeholder='Phone Number' ></TextField>
-                    </div>
-                    <div className='input01'>
-                        <TextField variant='outlined' placeholder='Enter OTP' ></TextField>
+                        <MdPhoneIphone className='icons01'></MdPhoneIphone>
                     </div>
                     <div className='input01'>
                         <TextField variant='outlined' placeholder='Email' ></TextField>
+                        <MdEmail className='icons01'></MdEmail>
                     </div>
                     <div className='input01'>
                         <TextField variant='outlined' placeholder='Password' ></TextField>
+                        <RiLockPasswordFill className='icons01'></RiLockPasswordFill>
                     </div>
                     <div className='input01'>
                         <TextField variant='outlined' placeholder='Confirm Password' ></TextField>
+                        <RiLockPasswordFill className='icons01'></RiLockPasswordFill>
                     </div>
                     <div className='signbtn'>
                         <Button variant='contained' style={{ width: '222px' }}>SUBMIT</Button>

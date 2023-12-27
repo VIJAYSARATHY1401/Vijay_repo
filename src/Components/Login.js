@@ -1,6 +1,6 @@
 import './Login.css';
 import logo from './Images/us global.png';
-import rightimg from './Images/Login-rafiki.png';
+import rightimg from './Images/right.svg';
 import Typography from '@mui/material/Typography';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
@@ -10,8 +10,8 @@ import { useState } from 'react';
 import { Password } from '@mui/icons-material';
 import { FaUser } from "react-icons/fa";
 import { RiLockPasswordFill } from "react-icons/ri";
-import Dashboard from './Dashboard';
-
+import google from './Images/google.png';
+import facebook from './Images/facebook.png';
 
 function Login() {
 
@@ -44,9 +44,11 @@ function Login() {
                 <div className='txts'>
                     <div className='lines'></div>
                     <div className='lnks'>
+                        <img src={google} className='googlelogo'></img>
                         <Button variant='text' className='lnk1'>Login with google</Button>
                     </div>
                     <div className='lnks'>
+                    <img src={facebook} className='fblogo'></img>
                         <Button variant='text' className='lnk1'>Login with Facebook</Button>
                     </div>
                 </div>
