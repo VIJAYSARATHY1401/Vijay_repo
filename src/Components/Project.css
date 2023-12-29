@@ -1,53 +1,85 @@
-.dash{
+.dash {
     display: grid;
-    grid-template-columns: 15% 85%;
+    grid-template-columns: 100%;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
 }
-.leftcontent{
+
+.leftcontent {
     border: 1px solid black;
     background-color: rgba(120, 136, 255, 0.938);
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
+    justify-content: center;
     align-items: center;
-    
+
 }
-.lnk1 Button{
+
+.lnk1 Button {
     margin-top: 45px;
     color: white;
     text-decoration: solid;
 }
-.logout{
+
+.logout {
     margin-top: 100px;
 }
-.box{
-display: flex;
-flex-direction: row;
-justify-content:space-evenly;
-align-items:center;
-margin-top: 250px;
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 900px;
+    margin-left: 600px;
 }
-.text{
+
+.text {
     position: absolute;
     margin-top: 100px;
     margin-left: 123px;
 }
-.box1{
+
+.box1 {
     height: 120px;
     width: 200px;
     border-radius: 10px;
     background-color: rgba(132, 212, 255, 0.693);
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
 }
-.box2{
+
+.box2 {
     height: 120px;
     width: 200px;
     border-radius: 10px;
     background-color: rgba(152, 255, 152, 0.515);
+    padding: 20px;
 }
-.box3{
+
+.box3 {
     height: 120px;
     width: 200px;
     border-radius: 10px;
     background-color: rgba(255, 166, 255, 0.414);
+    padding: 20px;
 }
 
+.box3,
+.box4,
+.box5,
+.box6 {
+    height: 120px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgba(132, 212, 255, 0.693);
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+}

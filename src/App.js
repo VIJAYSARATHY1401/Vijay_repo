@@ -7,11 +7,12 @@ import Dash from './Components/Dash';
 import Project from './Components/Project';
 import Members from './Components/Members';
 
+import Navbar from './Navbar';
 
 function App() {
   return (
     <BrowserRouter>
-   {/* <Dashboard/> */}
+   <Navbar/>
       <Routes>
         <Route path='/' element={<Login />}></Route>
         <Route path='/Dash' element={<Dashboard />}></Route>
@@ -20,9 +21,19 @@ function App() {
         <Route path='/members' element={<Members/>}></Route>
       </Routes>
 
-     
+
     </BrowserRouter>
   );
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+

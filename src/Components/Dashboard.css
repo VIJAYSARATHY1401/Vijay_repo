@@ -1,20 +1,49 @@
-.dash{
-    display: grid;
-    grid-template-columns: 15% 85%;
-    height: 100vh;
-}
+
 .leftcontent{
     background-color: rgba(120, 136, 255, 0.938);
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
     align-items: center;
+    width:190px;
+    height: 100%;
+  
+    
     
 }
+.search{
+ border-radius: 15px;
+ border: transparent;
+ border-color: rgba(120, 136, 255, 0.938) !important;
+  background-color: white;  
+  padding-right: 25px !important;
+  padding-left: 18px !important;
+  padding-bottom: 5px !important;
+}
+.logo{
+    display: grid;
+    grid-template-columns: 800px 280px 60px 80px;
+    justify-content: center;
+    align-items: center;
+}
+.Username{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.appbar{
+    background-color: rgba(120, 136, 255, 0.938);
+}
 .lnk1 Button{
-    margin-top: 45px;
+    text-align: left;
+    margin-top: 44px;
     color: white;
     text-decoration: solid;
+    font-family: sans-serif;
+    font-weight: bold;
+  
+}
+.lnk1:hover{
+    border-bottom: 1px solid white;
 }
 .logout{
     margin-top: 100px;
@@ -28,7 +57,7 @@
     border: 1px solid black;
     height: 60px;
     display: grid;
-    grid-template-columns: 700px 200px;
+    grid-template-columns: 700px 180px;
     align-items: center;
 }
 .logo img{
